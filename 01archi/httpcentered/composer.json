@@ -1,0 +1,25 @@
+{
+    "name": "stagiaire/01archi",
+    "description": "Training demo",
+    "type": "workshop",
+    "require": {
+        "guzzlehttp/psr7": "^1.4",
+        "symfony/http-foundation": "^4.1@dev",
+        "symfony/psr-http-message-bridge": "^1.0@dev",
+        "zendframework/zend-diactoros": "^1.7@dev",
+        "symfony/dependency-injection": "^4.1@dev"
+    },
+    "license": "Beerware",
+    "authors": [
+        {
+            "name": "Toutou Ndiaye",
+            "email": "thiesescale@yahoo.fr"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Toutou\\http\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
