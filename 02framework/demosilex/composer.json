@@ -1,0 +1,15 @@
+{
+    "name": "stagiaire/demosilex",
+    "description": "demo silex",
+    "require": {
+        "silex/silex": "^2.2"
+    },
+    "license": "BeerWare",
+    "authors": [
+        {
+            "name": "Toutou Ndiaye",
+            "email": "thiesescale@yahoo.fr"
+        }
+    ],
+    "minimum-stability": "dev"
+}
