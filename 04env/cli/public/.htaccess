@@ -1,0 +1,3 @@
+<?php
+
+echo 'Malheureux que viens tu faire ici' ."\n";

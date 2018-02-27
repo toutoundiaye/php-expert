@@ -1,0 +1,27 @@
+#!/usr/bin/php
+<?php
+//var_dump($argv);
+
+$options = getopt('p:h', ['port:','help']);
+
+if (key_exists('h', $options) || key_exists('help', $options)) {
+    echo <<<END
+usage:
+\033[0;33mserve\033[0m
+  launch local server with default port
+  
+\033[0;33mserve\033[0m \033[0;34m-h\033[0m
+\033[0;33mserve\033[0m \033[0;34m--help\033[0m
+    show this help text 
+
+\033[0;33mserve\033[0m \033[0;34m-p=xxxx\033[0m
+\033[0;33mserve\033[0m \033[0;34m--port=xxxx\033[0m
+ launch local server with specified port
+    
+END;
+   die;
+}
+
+$port = $options['port'] ?? $options['p'] ?? '8000';
+//var_dump($options);
+exec('php -S localhost:'.$port. ' -t public/ router.php');

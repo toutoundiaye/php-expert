@@ -1,0 +1,5 @@
+- hosts: all
+  become: true
+  tasks:
+  - name: avoir un serveur Apache2 installé 
+    apt: name="apache2" state="present"
