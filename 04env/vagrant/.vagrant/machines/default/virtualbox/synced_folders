@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/stagiaire/Documents/formation-php-expert/04env/vagrant","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/home/vagrant/my-project":{"guestpath":"/home/vagrant/my-project","hostpath":"/home/stagiaire/Documents/formation-php-expert/04env/vagrant","disabled":false,"__vagrantfile":true}}}

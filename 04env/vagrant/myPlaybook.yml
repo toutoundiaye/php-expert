@@ -1,5 +1,15 @@
 - hosts: all
-  become: true
+  become: true  #permet de devenir super utilisateur
   tasks:
+  - name: avoir une vache qui parle
+    apt: name="cowsay" state="latest"  
+
   - name: avoir un serveur Apache2 installé 
     apt: name="apache2" state="present"
+
+  - name: avoir un demon Apache2 qui tourne
+    service: name="apache2" state="started" enabled="true"   
+
+  - name: avoir php7 installé
+    apt: name="php7" state="latest"
+     
