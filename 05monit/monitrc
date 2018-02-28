@@ -1,0 +1,7 @@
+SET httpd
+    port 4242
+    use address 127.0.0.1
+
+CHECK HOST localhost with address localhost
+   IF FAILED port 80 protocol http THEN alert
+        
