@@ -10,6 +10,15 @@
   - name: avoir un demon Apache2 qui tourne
     service: name="apache2" state="started" enabled="true"   
 
+  - name: installer MySQL DB server
+    apt:
+      name: mysql-server
+      state: latest  
+
   - name: avoir php7 installé
-    apt: name="php7" state="latest"
-     
+    apt: 
+      name: php7.0-cli
+      state: latest
+
+  
+   
