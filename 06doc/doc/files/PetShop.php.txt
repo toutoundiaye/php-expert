@@ -1,0 +1,40 @@
+<?php
+/**
+ * Summary for PetShop
+ * @author Toutou Ndiaye <thiesescale@yahoo.fr>
+ */
+namespace Toutou\doc;
+
+/**
+ * Class PetShop
+ *
+ * Manage each component of the shop
+ *
+ * @author Toutou Ndiaye <thiesescale@yahoo.fr>
+ * @license MIT
+ */
+class PetShop
+{
+    /**
+     * @var Person the person you can blame
+     */
+    private $owner;
+
+    /**
+     * @var Person[] people you take money
+     */
+    private $customers;
+    /**
+     * short description ( < 50ch)
+     *
+     * long and multi-line description
+     *
+     * @param string $name description of param role
+     * @return Stock the specified stock
+     */
+    public function getStock($name)
+    {
+        //Todo: implement this method
+        return new Stock();
+    }
+}

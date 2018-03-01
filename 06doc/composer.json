@@ -1,0 +1,23 @@
+{
+    "name": "stagiaire/06doc",
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "Toutou Ndiaye",
+            "email": "thiesescale@yahoo.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Toutou\\doc\\": "src/"
+        }
+    },
+    "require": {
+      "php": ">7.1",
+      "ext-yaml": "*"
+    }
+
+}

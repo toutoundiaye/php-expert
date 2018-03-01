@@ -1,0 +1,8 @@
+dbconf:
+  dbhost: localhost
+  dbport: 3306
+  dbuser: my-user
+  dbpass: my-pass
+
+
+
