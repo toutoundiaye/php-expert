@@ -33,7 +33,6 @@ class ConfigTest extends Testcase
         $this->assertArraySubset(array($a, $b, $c, $d), $config, $strict = 'true',
             $message = 'Tu n\'as pas la config');
     }
-
     public function provideConfig()
     {
         return [
